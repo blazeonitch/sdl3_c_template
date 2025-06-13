@@ -1,1 +1,1 @@
-# sdl3_cpp_template
+# sdl3_c_template
