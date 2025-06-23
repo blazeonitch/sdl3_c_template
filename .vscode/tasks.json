@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build with Make",
+            "type": "shell",
+            "command": "C:/msys64/ucrt64/bin/make.exe",
+            "args": [
+                "D:/Libraries/vcpkg",  // Adjust to your vcpkg path
+                "PROJECT_NAME=${fileBasenameNoExtension}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
